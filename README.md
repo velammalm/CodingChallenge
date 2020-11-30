@@ -12,7 +12,7 @@ File -->Import-->Maven-->Existing Maven Project
 5. Ensure to change the Project compliance and JRE to 1.8
 
 # Steps to execute the test script:
-1.Find the testng.xml file and the following path in the project folder 
+1.Find the testng.xml file and the following path in the project folder<br />
 #src/main/resources -->testng.xml <br />
 2.Rightclick on testng.xml and Run as-->TestNG Suite <br />
 3.The Reports can be obtained from 'Reports' Folder
