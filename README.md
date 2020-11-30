@@ -42,7 +42,8 @@ The other utilities implemented are as follows:  <br />
 7. Reports - The HTML reports after the test execution can be viewed under this folder  <br />
 8. Screenshots - The Screenshots during test execution are placed here
 
-
+# Browsers Tested
+Chrome and Firefox
 
 
 
