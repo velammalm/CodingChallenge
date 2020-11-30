@@ -86,7 +86,7 @@ public class ShoppingCartPage extends TestBase {
 		subtotal = Double.parseDouble(price_text);
 		price_text = shippingCost.getText().replace(',', '.').substring(0, shippingCost.getText().lastIndexOf(' '));
 		shippingcost = Double.parseDouble(price_text);
-		grandTotal = subtotal + shippingcost;
+		grandTotal = Precision.round(subtotal + shippingcost,2);
 		if (bulkySurcharge.size() != 0) {
 			test.log(Status.INFO, bulkySurcharge.get(0).getText());
 			price_text = bulkySurcharge.get(0).getText().replace(',', '.').substring(0,
