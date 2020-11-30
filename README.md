@@ -13,7 +13,7 @@ File -->Import-->Maven-->Existing Maven Project
 
 # Steps to execute the test script:
 1. Find the testng.xml file and the following path in the project folder <br />
-src/main/resources -->testng.xml
+src/main/resources -->testng.xml <br />
 2.Rightclick on testng.xml and Run as-->TestNG Suite <br />
 3.The Reports can be obtained from 'Reports' Folder
 
