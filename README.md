@@ -5,7 +5,7 @@ Implemented the solution to the coding challenge using the Hybrid framework whic
 1. Install Java and Eclipse
 2. Install testng plugin to eclipse IDE <br />
 Reference site for testng plugin intallation - https://www.guru99.com/install-testng-in-eclipse.html
-3. Also ensure the driver software is updated under the 'drivers' folder under the root directory of the project based on the chrome browser version of your system
+3. Also ensure the driver software is updated under the 'drivers' folder under the root directory of the project based on the chrome browser version of your system <br />
 Note: I used Chrome Browser Version 87.0.4280.66 (Official Build) (64-bit) and driver version ChromeDriver 87.0.4280.20
 4. Ensure to import the project as Maven project in eclipse
 File -->Import-->Maven-->Existing Maven Project
