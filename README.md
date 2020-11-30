@@ -21,9 +21,9 @@ src/main/resources -->testng.xml
 i. com.lampenwelt.pages - The object repositories and the methods for each pages are implemented  <br />
 ii. com.lampenwelt.testcases - The testscripts for each of the testcases are created and addressed using the testng attribute @Test  <br />
 iii. com.lampenwelt.utils - It consists of the following  <br />
-         * ExcelReader.java -Code for fetching data from excel has been implemented in this file  <br />
-         * Reporter.java - Extent Report software has been used and the code for html report generation with date and time has been implemented  <br />
-         * WebEventlistener.java -The webdriver actions are logged and the output is casted in 'Logger' Files  <br />
+         &nbsp; 1. ExcelReader.java -Code for fetching data from excel has been implemented in this file  <br />
+         &nbsp;2. Reporter.java - Extent Report software has been used and the code for html report generation with date and time has been implemented  <br />
+         &nbsp;3. WebEventlistener.java -The webdriver actions are logged and the output is casted in 'Logger' Files  <br />
 iv. com.lampenwelt.wrappers - It consists of the generic methods for executing driver actions using selenium  <br />
 
 The other utilities implemented are as follows:  <br />
