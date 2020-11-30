@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Lampenwelt Project Testing]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.lampenwelt.testcases.TC003_UpdateShippingCountry">
+        <methods>
+          <include name="setValues"/>
+          <include name="report"/>
+          <include name="stopReport"/>
+          <include name="startReport"/>
+          <include name="validateProductSearch" invocation-numbers="0"/>
+          <include name="browser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lampenwelt.testcases.TC003_UpdateShippingCountry -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Lampenwelt Project Testing] -->

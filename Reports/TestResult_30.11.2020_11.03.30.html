@@ -1,0 +1,1809 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/bee7a4abdc590e21eec8618a90c81ff4d16e500a/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>ExtentReports</title>
+
+	<style type='text/css'>
+	</style>
+</head>
+
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+				<li class='waves-effect'><a href='#!' view='author-view' onclick="configureView(3)"><i class='material-icons'>person</i></a></li>
+			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>ExtentReports</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Nov 30, 2020 11:03:30 AM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>v3.1.0</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>local_offer</i> Category
+				</a>
+				<ul id='category-toggle' class='dropdown-content'>
+					<li><a href='#'>Regression</a></li>
+					<li class='divider'></li>
+					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+				</ul>
+			</div>
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='90.952%'><span class='strong'>191</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='9.048%'>19</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Search and Add Products to Cart</span>
+						<span class='test-time'>Nov 30, 2020 11:03:32 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:03:32 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:04:17 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 45s+1ms</span>
+</div>
+	<div class='test-desc'>validation of product search in homepage and addition of products to the cart </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:45 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:03:45 AM</td>
+					<td class='step-details'>Search result obtained</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:49 AM</td>
+					<td class='step-details'>LED-Strips is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:50 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:53 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:54 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:54 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:54 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:58 AM</td>
+					<td class='step-details'>smart home leuchmittel is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:03:59 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:02 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:03 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:03 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:03 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:07 AM</td>
+					<td class='step-details'>Eve is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:08 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:11 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:12 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:12 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:12 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:16 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:04:17 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.16.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.16.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.16.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Search and Add Products to Cart</span>
+						<span class='test-time'>Nov 30, 2020 11:04:18 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:04:18 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:04:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 41s+503ms</span>
+</div>
+	<div class='test-desc'>validation of product search in homepage and addition of products to the cart </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:27 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:04:27 AM</td>
+					<td class='step-details'>Search result obtained</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:32 AM</td>
+					<td class='step-details'>Eglo Connect is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:32 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:35 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:36 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:36 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:36 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:39 AM</td>
+					<td class='step-details'>Abus is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:40 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:43 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:44 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:44 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:44 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:49 AM</td>
+					<td class='step-details'>LED-Lampen is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:49 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:53 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:53 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:53 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:53 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:04:59 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:04:59 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.59.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.59.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.04.59.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Add new product from Cart Page</span>
+						<span class='test-time'>Nov 30, 2020 11:05:01 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:05:01 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:05:54 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 53s+796ms</span>
+</div>
+	<div class='test-desc'>To verify whether user is able to add new Product from Cart Page </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>Lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:09 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:13 AM</td>
+					<td class='step-details'>LED-Strips is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:14 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:16 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>Selected ProductName is: BRUMBERG Anbau-Aluminiumprofil-Set f¸r LED-Strips</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>Price of the product is EUR 83.18</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>Total cost of the selected products are 83.18</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:17 AM</td>
+					<td class='step-details'>All the Products are added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:21 AM</td>
+					<td class='step-details'>smart home leuchmittel is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:22 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:25 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:25 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:26 AM</td>
+					<td class='step-details'>Selected ProductName is: Lindby Smart LED-Lampe E27 7W warmweiﬂ Filament</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:26 AM</td>
+					<td class='step-details'>Price of the product is EUR 8.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:26 AM</td>
+					<td class='step-details'>Total cost of the selected products are 92.08</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:26 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:26 AM</td>
+					<td class='step-details'>All the Products are added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:29 AM</td>
+					<td class='step-details'>Eve is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:30 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:33 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>Selected ProductName is: Eve Cam Innenkamera mit Apple HomkitSecure-Technik</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>Price of the product is EUR 149.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>Total cost of the selected products are 241.98</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:34 AM</td>
+					<td class='step-details'>All the Products are added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:38 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:39 AM</td>
+					<td class='step-details'>Cart Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:39 AM</td>
+					<td class='step-details'>The expected text contains the actual 241,98<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_430651204.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_430651204.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_430651204.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:39 AM</td>
+					<td class='step-details'>24,90 Ä</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:40 AM</td>
+					<td class='step-details'>The expected text contains the actual 266,88<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_390619986.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_390619986.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_390619986.jpg'></td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:44 AM</td>
+					<td class='step-details'>Eglo Connect is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:44 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:47 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:48 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:48 AM</td>
+					<td class='step-details'>Selected ProductName is: EGLO connect Piove-C LED-Auﬂenwandleuchte</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:48 AM</td>
+					<td class='step-details'>Price of the product is EUR 107.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:48 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:52 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:52 AM</td>
+					<td class='step-details'>Cart Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:53 AM</td>
+					<td class='step-details'>The expected text contains the actual 349,88<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_682865533.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_682865533.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_682865533.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:53 AM</td>
+					<td class='step-details'>24,90 Ä</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:05:54 AM</td>
+					<td class='step-details'>The expected text contains the actual 374,78<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_366076829.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_366076829.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_366076829.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:05:54 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.05.54.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.05.54.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.05.54.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Update Shipping Country</span>
+						<span class='test-time'>Nov 30, 2020 11:05:56 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:05:56 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:06:41 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 45s+77ms</span>
+</div>
+	<div class='test-desc'>Validation of shipping cost when country is updated in cart page </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:05 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:06:05 AM</td>
+					<td class='step-details'>Search result obtained</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:10 AM</td>
+					<td class='step-details'>Eglo Connect is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:10 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:13 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Selected ProductName is: EGLO connect Piove-C LED-Auﬂenwandleuchte</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Price of the product is EUR 107.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Total cost of the selected products are 107.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:14 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:18 AM</td>
+					<td class='step-details'>Abus is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:18 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:21 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:21 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:21 AM</td>
+					<td class='step-details'>Selected ProductName is: ABUS Smartvest Funk-Fernbedienung</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:21 AM</td>
+					<td class='step-details'>Price of the product is EUR 24.95</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:22 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:22 AM</td>
+					<td class='step-details'>Total cost of the selected products are 132.85</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:22 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:22 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:26 AM</td>
+					<td class='step-details'>LED-Lampen is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:27 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:30 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:30 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:30 AM</td>
+					<td class='step-details'>Selected ProductName is: E14 6W 830 LED-Lampe in Kerzenform warmweiﬂ</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:30 AM</td>
+					<td class='step-details'>Price of the product is EUR 5.1</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:31 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:31 AM</td>
+					<td class='step-details'>Total cost of the selected products are 137.95</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:31 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:31 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:34 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:35 AM</td>
+					<td class='step-details'>Cart Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:35 AM</td>
+					<td class='step-details'>The expected text contains the actual 137,95<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_524634723.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_524634723.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_524634723.jpg'></td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:39 AM</td>
+					<td class='step-details'>Shipping cost is updated and the value is 9,90 Ä</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:40 AM</td>
+					<td class='step-details'>The expected text contains the actual 147,85<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_363814672.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_363814672.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_363814672.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:06:41 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.06.40.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.06.40.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.06.40.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Update Product Quantity</span>
+						<span class='test-time'>Nov 30, 2020 11:06:42 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:06:42 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:07:29 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 46s+891ms</span>
+</div>
+	<div class='test-desc'>Validation of product quantity updation in cart page </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:51 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:06:51 AM</td>
+					<td class='step-details'>Search result obtained</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:55 AM</td>
+					<td class='step-details'>LED-Strips is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:56 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:59 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:59 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:59 AM</td>
+					<td class='step-details'>Selected ProductName is: Schˆner Wohnen Stripe LED-H‰ngeleuchte verstellbar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:06:59 AM</td>
+					<td class='step-details'>Price of the product is EUR 289.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:00 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:00 AM</td>
+					<td class='step-details'>Total cost of the selected products are 289.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:00 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:00 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:03 AM</td>
+					<td class='step-details'>smart home leuchmittel is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:04 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:08 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:08 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:08 AM</td>
+					<td class='step-details'>Selected ProductName is: Lindby Smart LED-H‰ngelampe Felice, App-gesteuert</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:08 AM</td>
+					<td class='step-details'>Price of the product is EUR 149.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:09 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:09 AM</td>
+					<td class='step-details'>Total cost of the selected products are 439.8</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:09 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:09 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:12 AM</td>
+					<td class='step-details'>Eve is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:13 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:16 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:16 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:16 AM</td>
+					<td class='step-details'>Selected ProductName is: Eve Window Guard Fenstersensor, Einbruchserkennung</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:17 AM</td>
+					<td class='step-details'>Price of the product is EUR 149.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:17 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:17 AM</td>
+					<td class='step-details'>Total cost of the selected products are 589.7</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:17 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:17 AM</td>
+					<td class='step-details'>Products added to cart successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:21 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:22 AM</td>
+					<td class='step-details'>Cart Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:23 AM</td>
+					<td class='step-details'>The expected text contains the actual 589,7<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_182819840.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_182819840.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_182819840.jpg'></td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:24 AM</td>
+					<td class='step-details'>The expected text contains the actual 589,7<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_482799918.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_482799918.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_482799918.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:07:24 AM</td>
+					<td class='step-details'>Price of the Product 2 before updating product quantity is 149.9</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:07:28 AM</td>
+					<td class='step-details'>Quantity of the Product 2 id updated to 8</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:28 AM</td>
+					<td class='step-details'>The expected cost amount 1639,0 is displayed in sub total</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:28 AM</td>
+					<td class='step-details'>The expected cost amount 1639,0 is displayed in GrandTotalPrice</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:07:29 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.07.28.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.07.28.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.07.28.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>Delete Product from Cart Page</span>
+						<span class='test-time'>Nov 30, 2020 11:07:30 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 30, 2020 11:07:30 AM</span>
+	<span class='label end-time'>Nov 30, 2020 11:08:20 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 50s+40ms</span>
+</div>
+	<div class='test-desc'>Validation of removing product selection in cart page </div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>lampenwelt</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:39 AM</td>
+					<td class='step-details'>Application is launched</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:07:39 AM</td>
+					<td class='step-details'>Search result obtained</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:45 AM</td>
+					<td class='step-details'>LED-Strips is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:45 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:49 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Selected ProductName is: Moderne LED-Auﬂenwandleuchte Stripes</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Price of the product is EUR 66.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Total cost of the selected products are 66.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:50 AM</td>
+					<td class='step-details'>Products added to cart successfu+lly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:55 AM</td>
+					<td class='step-details'>smart home leuchmittel is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:55 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:58 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:58 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:58 AM</td>
+					<td class='step-details'>Selected ProductName is: Eve Light Switch Smart Home Wandschalter</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:58 AM</td>
+					<td class='step-details'>Price of the product is EUR 89.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:59 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:59 AM</td>
+					<td class='step-details'>Total cost of the selected products are 156.8</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:59 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:07:59 AM</td>
+					<td class='step-details'>Products added to cart successfu+lly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:03 AM</td>
+					<td class='step-details'>Eve is entered in the search bar</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:03 AM</td>
+					<td class='step-details'>Search Result is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:06 AM</td>
+					<td class='step-details'>Product is selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Product information Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Selected ProductName is: Eve Aqua Smart Home Bew‰sserungssteuerung</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Price of the product is EUR 89.9</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Total cost of the selected products are 246.7</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Add to Cart Button is clicked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:07 AM</td>
+					<td class='step-details'>Products added to cart successfu+lly</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:12 AM</td>
+					<td class='step-details'>Clicked my cart icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:13 AM</td>
+					<td class='step-details'>Cart Page is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:13 AM</td>
+					<td class='step-details'>The expected text contains the actual 246,7<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_124591347.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_124591347.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_124591347.jpg'></td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:14 AM</td>
+					<td class='step-details'>The expected text contains the actual 246,7<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_237725301.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_237725301.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_237725301.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:08:15 AM</td>
+					<td class='step-details'>Product to be deleted is Product 1</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:18 AM</td>
+					<td class='step-details'>Product1is deleted successfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:19 AM</td>
+					<td class='step-details'>The expected text contains the actual 179,8<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_342483792.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_342483792.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_342483792.jpg'></td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>11:08:20 AM</td>
+					<td class='step-details'>The expected text contains the actual 179,8<img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_53720030.jpg' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_53720030.jpg' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_53720030.jpg'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>11:08:20 AM</td>
+					<td class='step-details'>Test execution ended</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.08.20.png' width='10%' src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.08.20.png' data-src='C:\Temp\Eclipse\Eclipse_Workspace\LampenweltAutomation/Screenshots/Screenshot_30.11.2020_11.08.20.png'></li>
+							</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+</div>
+<!-- test view -->
+<div id='category-view' class='view hide'>
+
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+				
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Categories</h3>
+			<ul id='category-collection' class='category-collection'>
+				
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>Regression</span>
+						<span class='category-status right'>
+							<span class='label pass'>6</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span class='label green accent-4 white-text'>Passed: 6</span>
+							
+							
+						</div>
+					
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nov 30, 2020 11:03:32 AM</td>
+										<td class='linked' test-id='1'>Search and Add Products to Cart</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 30, 2020 11:04:18 AM</td>
+										<td class='linked' test-id='2'>Search and Add Products to Cart</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 30, 2020 11:05:01 AM</td>
+										<td class='linked' test-id='3'>Add new product from Cart Page</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 30, 2020 11:05:56 AM</td>
+										<td class='linked' test-id='4'>Update Shipping Country</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 30, 2020 11:06:42 AM</td>
+										<td class='linked' test-id='5'>Update Product Quantity</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Nov 30, 2020 11:07:30 AM</td>
+										<td class='linked' test-id='6'>Delete Product from Cart Page</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='category-name'></h5>
+		</div>
+	</div>
+</div>
+<!-- category view -->
+<div id='author-view' class='view hide'>
+    <section id='controls'>
+        <div class='controls grey lighten-4'>
+            <!-- search -->
+            <div class='chip transparent' alt='Search Authors' title='Search Authors'>
+                <a href="#" class='search-div'>
+                    <i class='material-icons'>search</i> Search
+                </a>
+
+                <div class='input-field left hide'>
+                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Authors...'>
+                </div>
+
+            </div>
+            <!-- search -->
+        </div>
+    </section>
+
+    <div class='subview-left left'>
+
+        <div class='view-summary'>
+            <h5>Authors</h5>
+                <ul id='author-collection' class='author-collection'>
+
+                        <li class='author displayed active'>
+                            <div class='author-heading'>
+                                <span class='author-name'>lampenwelt</span>
+                                <span class='author-status right'>
+                                        <span class='label pass'>5</span>
+						        </span>
+                            </div>
+                            <div class='author-content hide'>
+                                <div class='author-status-counts'>
+                                    <span class='label green accent-4 white-text'>Passed: 5</span>
+                                    
+                                    
+                                </div>
+
+                                <div class='author-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:03:32 AM</td>
+                                                <td class='linked' test-id='1'>Search and Add Products to Cart</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:04:18 AM</td>
+                                                <td class='linked' test-id='2'>Search and Add Products to Cart</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:05:56 AM</td>
+                                                <td class='linked' test-id='4'>Update Shipping Country</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:06:42 AM</td>
+                                                <td class='linked' test-id='5'>Update Product Quantity</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:07:30 AM</td>
+                                                <td class='linked' test-id='6'>Delete Product from Cart Page</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                        <li class='author displayed active'>
+                            <div class='author-heading'>
+                                <span class='author-name'>Lampenwelt</span>
+                                <span class='author-status right'>
+                                        <span class='label pass'>1</span>
+						        </span>
+                            </div>
+                            <div class='author-content hide'>
+                                <div class='author-status-counts'>
+                                    <span class='label green accent-4 white-text'>Passed: 1</span>
+                                    
+                                    
+                                </div>
+
+                                <div class='author-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Nov 30, 2020 11:05:01 AM</td>
+                                                <td class='linked' test-id='3'>Add new product from Cart Page</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+
+                </ul>
+        </div>
+    </div>
+
+    <div class='subview-right left'>
+        <div class='view-summary'>
+            <h5 class='author-name'></h5>
+        </div>
+    </div>
+</div>
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>6</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>210</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Nov 30, 2020 11:03:30 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Nov 30, 2020 11:08:21 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>291,511ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-categories'>
+					<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Passed</th>
+							<th>Failed</th>
+							<th>Others</th>
+						</tr>
+						<tr>
+							<td>Regression</td>
+							<td>6</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 6,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				
+				passChild: 191,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 19,
+				exceptionsChild: 0,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+ 		</script>
+	</body>
+	
+</html>

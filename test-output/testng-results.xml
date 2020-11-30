@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="14" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Lampenwelt Project Testing" duration-ms="291254" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:08:21 CET">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="291254" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:08:21 CET">
+      <class name="com.lampenwelt.testcases.TC004_UpdateProductQuantity">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.lampenwelt.testcases.TC004_UpdateProductQuantity@6121c9d6]" name="setValues" is-config="true" duration-ms="0" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC004_UpdateProductQuantity@6121c9d6]" name="report" is-config="true" duration-ms="8" started-at="2020-11-30T11:06:42 CET" finished-at="2020-11-30T11:06:42 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC004_UpdateProductQuantity@6121c9d6]" name="browser" is-config="true" duration-ms="9057" started-at="2020-11-30T11:06:42 CET" finished-at="2020-11-30T11:06:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="validateProductSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC004_UpdateProductQuantity@6121c9d6]" name="validateProductSearch" duration-ms="37273" started-at="2020-11-30T11:06:51 CET" data-provider="fetchData" finished-at="2020-11-30T11:07:28 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LED-Strips]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smart home leuchmittel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC004_UpdateProductQuantity@6121c9d6]" name="tearDown" is-config="true" duration-ms="1690" started-at="2020-11-30T11:07:28 CET" finished-at="2020-11-30T11:07:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lampenwelt.testcases.TC004_UpdateProductQuantity -->
+      <class name="com.lampenwelt.testcases.TC005_DeleteProductFromCartPage">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.lampenwelt.testcases.TC005_DeleteProductFromCartPage@87f383f]" name="setValues" is-config="true" duration-ms="0" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC005_DeleteProductFromCartPage@87f383f]" name="browser" is-config="true" duration-ms="8989" started-at="2020-11-30T11:07:30 CET" finished-at="2020-11-30T11:07:39 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC005_DeleteProductFromCartPage@87f383f]" name="report" is-config="true" duration-ms="0" started-at="2020-11-30T11:07:30 CET" finished-at="2020-11-30T11:07:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="validateProductSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC005_DeleteProductFromCartPage@87f383f]" name="validateProductSearch" duration-ms="40495" started-at="2020-11-30T11:07:39 CET" data-provider="fetchData" finished-at="2020-11-30T11:08:20 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LED-Strips]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smart home leuchmittel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC005_DeleteProductFromCartPage@87f383f]" name="tearDown" is-config="true" duration-ms="1740" started-at="2020-11-30T11:08:20 CET" finished-at="2020-11-30T11:08:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lampenwelt.testcases.TC005_DeleteProductFromCartPage -->
+      <class name="com.lampenwelt.testcases.TC003_UpdateShippingCountry">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.lampenwelt.testcases.TC003_UpdateShippingCountry@ed9d034]" name="setValues" is-config="true" duration-ms="0" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC003_UpdateShippingCountry@ed9d034]" name="report" is-config="true" duration-ms="8" started-at="2020-11-30T11:05:56 CET" finished-at="2020-11-30T11:05:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC003_UpdateShippingCountry@ed9d034]" name="browser" is-config="true" duration-ms="9409" started-at="2020-11-30T11:05:56 CET" finished-at="2020-11-30T11:06:05 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="validateProductSearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC003_UpdateShippingCountry@ed9d034]" name="validateProductSearch" duration-ms="35126" started-at="2020-11-30T11:06:05 CET" data-provider="fetchData" finished-at="2020-11-30T11:06:40 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eglo Connect]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LED-Lampen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Litauen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC003_UpdateShippingCountry@ed9d034]" name="tearDown" is-config="true" duration-ms="1663" started-at="2020-11-30T11:06:40 CET" finished-at="2020-11-30T11:06:42 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lampenwelt.testcases.TC003_UpdateShippingCountry -->
+      <class name="com.lampenwelt.testcases.TC001_SearchAndAddProducts">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="startReport" is-config="true" duration-ms="264" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="setValues" is-config="true" duration-ms="0" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="report" is-config="true" duration-ms="16" started-at="2020-11-30T11:03:32 CET" finished-at="2020-11-30T11:03:32 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="browser" is-config="true" duration-ms="12837" started-at="2020-11-30T11:03:32 CET" finished-at="2020-11-30T11:03:45 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="validateProductSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="validateProductSearch" duration-ms="31234" started-at="2020-11-30T11:03:45 CET" data-provider="fetchData" finished-at="2020-11-30T11:04:16 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LED-Strips]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smart home leuchmittel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eve]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="tearDown" is-config="true" duration-ms="2001" started-at="2020-11-30T11:04:16 CET" finished-at="2020-11-30T11:04:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="report" is-config="true" duration-ms="1" started-at="2020-11-30T11:04:18 CET" finished-at="2020-11-30T11:04:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="browser" is-config="true" duration-ms="9133" started-at="2020-11-30T11:04:18 CET" finished-at="2020-11-30T11:04:27 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="validateProductSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="validateProductSearch" duration-ms="31515" started-at="2020-11-30T11:04:27 CET" data-provider="fetchData" finished-at="2020-11-30T11:04:59 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Eglo Connect]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LED-Lampen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="tearDown" is-config="true" duration-ms="1928" started-at="2020-11-30T11:04:59 CET" finished-at="2020-11-30T11:05:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.lampenwelt.testcases.TC001_SearchAndAddProducts@76a3e297]" name="stopReport" is-config="true" duration-ms="790" started-at="2020-11-30T11:08:21 CET" finished-at="2020-11-30T11:08:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.lampenwelt.testcases.TC001_SearchAndAddProducts -->
+      <class name="com.lampenwelt.testcases.TC002_AddProductFromCartPage">
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.lampenwelt.testcases.TC002_AddProductFromCartPage@4d3167f4]" name="setValues" is-config="true" duration-ms="0" started-at="2020-11-30T11:03:30 CET" finished-at="2020-11-30T11:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.lampenwelt.testcases.TC002_AddProductFromCartPage@4d3167f4]" name="browser" is-config="true" duration-ms="8754" started-at="2020-11-30T11:05:01 CET" finished-at="2020-11-30T11:05:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.lampenwelt.testcases.TC002_AddProductFromCartPage@4d3167f4]" name="report" is-config="true" duration-ms="0" started-at="2020-11-30T11:05:01 CET" finished-at="2020-11-30T11:05:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="addNewProductFromCartPage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lampenwelt.testcases.TC002_AddProductFromCartPage@4d3167f4]" name="addNewProductFromCartPage" duration-ms="44462" started-at="2020-11-30T11:05:09 CET" data-provider="fetchData" finished-at="2020-11-30T11:05:54 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LED-Strips]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smart home leuchmittel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eve]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Eglo Connect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewProductFromCartPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lampenwelt.testcases.TC002_AddProductFromCartPage@4d3167f4]" name="tearDown" is-config="true" duration-ms="1740" started-at="2020-11-30T11:05:54 CET" finished-at="2020-11-30T11:05:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lampenwelt.testcases.TC002_AddProductFromCartPage -->
+    </test> <!-- Regression -->
+  </suite> <!-- Lampenwelt Project Testing -->
+</testng-results>

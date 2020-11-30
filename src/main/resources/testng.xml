@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Lampenwelt Project Testing">
+	<test  name="Regression">
+		<classes>
+			<class name="com.lampenwelt.testcases.TC001_SearchAndAddProducts" />
+			<class name="com.lampenwelt.testcases.TC002_AddProductFromCartPage" />
+			<class name="com.lampenwelt.testcases.TC003_UpdateShippingCountry" />
+			<class name="com.lampenwelt.testcases.TC004_UpdateProductQuantity" />
+			<class name="com.lampenwelt.testcases.TC005_DeleteProductFromCartPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

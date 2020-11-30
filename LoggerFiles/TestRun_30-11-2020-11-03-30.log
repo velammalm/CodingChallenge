@@ -1,0 +1,1423 @@
+2020-11-30 11:03:40  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:03:45  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:03:45  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:03:45  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:03:45  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:03:45  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:46  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:46  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:03:46  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:03:46  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:49  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:49  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:03:50  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:50  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:52 - Item to be selected is item# 4
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:50  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:03:53  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:03:53  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:03:54  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:03:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:03:54  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:03:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:03:54  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:03:54  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:03:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:03:54  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:03:54  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:03:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:03:54  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:03:54  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:03:54  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:03:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:03:54  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:03:54  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:55  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:55  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:03:55  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:03:55  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:58  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:03:58  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:03:59  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:03:59  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:52 - Item to be selected is item# 2
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:03:59  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:02  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:02  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:03  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:03  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:03  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:03  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:03  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:03  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:04:03  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:03  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:03  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:03  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:03  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:03  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:03  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:04:03  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:03  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:03  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:04:04  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:04:04  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:04  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:04  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:04:07  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> id: search]
+2020-11-30 11:04:07  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:07  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:07  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:07  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:07  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:08  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:08  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:04:08  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:52 - Item to be selected is item# 4
+2020-11-30 11:04:08  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:08  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:11  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:11  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:12  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:12  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:12  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:12  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:12  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:12  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:04:13  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:04:13  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:13  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:13  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:04:16  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (e053e378b7480f4bef4655e65ffc2670)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:04:16  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:04:16  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:04:17  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:04:18  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:04:18  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
+2020-11-30 11:04:24  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:04:27  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:04:27  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:04:27  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:27  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:27  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:28  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:28  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:28  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:28  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:32  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:32  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:32  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:32  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:32  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:32  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:32  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:32  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:04:32  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:32  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:32  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:32  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:32  INFO [main] SearchResultPage:52 - Item to be selected is item# 0
+2020-11-30 11:04:32  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:32  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:33  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:33  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:33  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:35  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:35  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:35  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:35  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:36  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:36  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:04:36  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:36  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:36  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:36  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:36  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:04:36  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:36  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:36  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:36  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:36  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:36  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:39  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:39  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:40  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:40  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:52 - Item to be selected is item# 4
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:40  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:43  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:43  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:44  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:44  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:44  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:44  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:44  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:44  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:44  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:44  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:04:44  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:04:44  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:49  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> id: search]
+2020-11-30 11:04:49  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:49  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:49  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:49  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:49  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:49  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:04:49  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:04:49  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:52 - Item to be selected is item# 0
+2020-11-30 11:04:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:04:50  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:04:53  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:04:53  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:53  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:04:53  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:53  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:04:53  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:04:53  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:53  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:04:54  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:04:54  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:54  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:04:54  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:04:59  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (01a501509e45118a4f5e020c9882312e)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:04:59  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:04:59  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:04:59  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:01  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:05:01  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
+2020-11-30 11:05:06  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:05:09  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:05:09  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:05:09  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:10  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:13  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:13  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:13  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:13  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:14  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:14  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:05:14  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:52 - Item to be selected is item# 3
+2020-11-30 11:05:14  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:14  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:16  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:16  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:17  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:17  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:17  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:17  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:17  INFO [main] ProductPage:61 - Selected ProductName is BRUMBERG Anbau-Aluminiumprofil-Set für LED-Strips
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:17  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:17  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:17  INFO [main] ProductPage:76 - Price of the product is 83.18
+2020-11-30 11:05:17  INFO [main] ProductPage:92 - Total cost of the product is 83.18
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:17  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:17  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:17  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:05:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:18  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:18  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:18  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:18  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:18  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:18  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:21  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:21  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:22  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:22  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:52 - Item to be selected is item# 4
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:22  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:25  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:25  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:25  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:25  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:25  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:25  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:25  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:25  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:05:25  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:25  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:25  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:26  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:26  INFO [main] ProductPage:61 - Selected ProductName is Lindby Smart LED-Lampe E27 7W warmweiß Filament
+2020-11-30 11:05:26  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:26  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:26  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:26  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:26  INFO [main] ProductPage:76 - Price of the product is 8.9
+2020-11-30 11:05:26  INFO [main] ProductPage:92 - Total cost of the product is 92.08
+2020-11-30 11:05:26  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:26  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:26  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:26  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:26  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:26  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:26  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:05:26  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:26  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:26  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:26  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:26  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:26  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:26  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:29  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:29  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:30  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:30  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:52 - Item to be selected is item# 1
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:30  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:33  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:33  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:34  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:34  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:34  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:34  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:34  INFO [main] ProductPage:61 - Selected ProductName is Eve Cam Innenkamera mit Apple HomkitSecure-Technik
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:34  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:34  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:34  INFO [main] ProductPage:76 - Price of the product is 149.9
+2020-11-30 11:05:34  INFO [main] ProductPage:92 - Total cost of the product is 241.98
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:34  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:34  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:34  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:34  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:34  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:34  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:35  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:35  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:05:38  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:05:38  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:05:38  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:05:38  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:05:38  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:05:38  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:05:38  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:65 - Cart Page is displayed
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:05:40  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:44  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> id: search]
+2020-11-30 11:05:44  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:44  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:44  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:44  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:44  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:44  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:05:44  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:05:44  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:52 - Item to be selected is item# 1
+2020-11-30 11:05:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:05:45  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:05:47  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:05:47  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:48  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:05:48  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:05:48  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:48  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:48  INFO [main] ProductPage:61 - Selected ProductName is EGLO connect Piove-C LED-Außenwandleuchte
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:05:48  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:48  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:48  INFO [main] ProductPage:76 - Price of the product is 107.9
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:48  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:05:48  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:05:48  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:48  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:05:48  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:05:48  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:49  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:05:49  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:05:52  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (cf65bd3ed8e9f88bbbcddff224dc7ecd)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:05:52  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:65 - Cart Page is displayed
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:52  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:05:53  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:05:54  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:54  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:05:54  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:05:56  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:05:56  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
+2020-11-30 11:06:02  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:06:05  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:06:05  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:06:05  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:05  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:05  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:06  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:06  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:06  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:06  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:10  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:10  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:10  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:10  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:10  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:10  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:10  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:10  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:06:10  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:10  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:10  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:52 - Item to be selected is item# 1
+2020-11-30 11:06:11  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:11  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:13  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:13  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:13  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:13  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:13  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:13  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:13  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:14  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:14  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:14  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:14  INFO [main] ProductPage:61 - Selected ProductName is EGLO connect Piove-C LED-Außenwandleuchte
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:14  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:14  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:14  INFO [main] ProductPage:76 - Price of the product is 107.9
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:14  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:14  INFO [main] ProductPage:92 - Total cost of the product is 107.9
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:14  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:14  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:14  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:14  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:14  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:14  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:14  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:18  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:18  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:18  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:18  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:52 - Item to be selected is item# 3
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:18  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:21  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:21  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:21  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:21  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:21  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:21  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:21  INFO [main] ProductPage:61 - Selected ProductName is ABUS Smartvest Funk-Fernbedienung
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:21  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:21  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:21  INFO [main] ProductPage:76 - Price of the product is 24.95
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:21  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:21  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:21  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:22  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:22  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:22  INFO [main] ProductPage:92 - Total cost of the product is 132.85
+2020-11-30 11:06:22  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:22  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:22  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:22  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:22  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:22  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:22  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:22  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:22  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:22  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:22  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:22  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:22  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:22  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:26  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: search]
+2020-11-30 11:06:26  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:26  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:26  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:26  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:26  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:26  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:27  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:06:27  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:52 - Item to be selected is item# 2
+2020-11-30 11:06:27  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:27  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:30  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:30  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:30  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:30  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:30  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:30  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:30  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:30  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:06:30  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:30  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:30  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:30  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:30  INFO [main] ProductPage:61 - Selected ProductName is E14 6W 830 LED-Lampe in Kerzenform warmweiß
+2020-11-30 11:06:30  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:30  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:30  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:30  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:30  INFO [main] ProductPage:76 - Price of the product is 5.1
+2020-11-30 11:06:30  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:31  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:31  INFO [main] ProductPage:92 - Total cost of the product is 137.95
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:31  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:31  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:31  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:31  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:06:31  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:06:34  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:06:34  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:06:34  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:65 - Cart Page is displayed
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: country
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: country
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: country
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: country
+2020-11-30 11:06:35  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: country
+2020-11-30 11:06:36  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: country
+2020-11-30 11:06:36  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: .//option[normalize-space(.) = "Litauen"]
+2020-11-30 11:06:36  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: .//option[normalize-space(.) = "Litauen"]
+2020-11-30 11:06:36  INFO [main] ShoppingCartPage:29 - Trying to Click On: [[[[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: country]] -> xpath: .//option[normalize-space(.) = "Litauen"]]
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:33 - Clicked On: [[[[ChromeDriver: chrome on WINDOWS (d791df06d7d03b2b9baf5c178da9a59b)] -> id: country]] -> xpath: .//option[normalize-space(.) = "Litauen"]]
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:06:39  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:06:40  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:06:41  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:06:42  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:06:42  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
+2020-11-30 11:06:48  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:06:51  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:06:51  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:06:51  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:51  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:51  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:06:52  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:06:52  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:06:52  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:06:52  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:06:55  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:06:55  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:56  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:06:56  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:52 - Item to be selected is item# 2
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:06:56  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:06:59  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:06:59  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:59  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:06:59  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:06:59  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:59  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:59  INFO [main] ProductPage:61 - Selected ProductName is Schöner Wohnen Stripe LED-Hängeleuchte verstellbar
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:06:59  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:06:59  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:06:59  INFO [main] ProductPage:76 - Price of the product is 289.9
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:06:59  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:06:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:06:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:00  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:00  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:00  INFO [main] ProductPage:92 - Total cost of the product is 289.9
+2020-11-30 11:07:00  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:00  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:00  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:00  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:00  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:00  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:00  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:00  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:00  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:00  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:00  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:00  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:00  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:00  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:03  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:03  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:04  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:04  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:52 - Item to be selected is item# 1
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:04  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:08  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:08  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:08  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:08  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:08  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:08  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:08  INFO [main] ProductPage:61 - Selected ProductName is Lindby Smart LED-Hängelampe Felice, App-gesteuert
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:08  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:08  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:08  INFO [main] ProductPage:76 - Price of the product is 149.9
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:08  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:08  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:09  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:09  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:09  INFO [main] ProductPage:92 - Total cost of the product is 439.8
+2020-11-30 11:07:09  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:09  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:09  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:09  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:09  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:09  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:09  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:09  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:09  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:09  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:09  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:09  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:09  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:09  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:12  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> id: search]
+2020-11-30 11:07:12  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:13  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:13  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:52 - Item to be selected is item# 0
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:13  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:16  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:16  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:16  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:16  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:16  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:16  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:16  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:16  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:07:16  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:16  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:16  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:16  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:16  INFO [main] ProductPage:61 - Selected ProductName is Eve Window Guard Fenstersensor, Einbruchserkennung
+2020-11-30 11:07:16  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:16  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:16  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:17  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:17  INFO [main] ProductPage:76 - Price of the product is 149.9
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:17  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:17  INFO [main] ProductPage:92 - Total cost of the product is 589.7
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:17  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:17  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:17  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:17  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:07:17  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:07:21  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:07:21  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:07:21  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:65 - Cart Page is displayed
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:22  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:23  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //select[@class='qty js-qty-select option-chosen']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //select[@class='qty js-qty-select option-chosen']
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: .//option[@value = "8"]
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: .//option[@value = "8"]
+2020-11-30 11:07:24  INFO [main] ShoppingCartPage:29 - Trying to Click On: [[[[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> xpath: //select[@class='qty js-qty-select option-chosen']]] -> xpath: .//option[@value = "8"]]
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:33 - Clicked On: [[[[ChromeDriver: chrome on WINDOWS (6203f45bff071d384673914cc48e2b71)] -> xpath: //select[@class='qty js-qty-select option-chosen']]] -> xpath: .//option[@value = "8"]]
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:07:28  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:07:29  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:07:30  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:07:30  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
+2020-11-30 11:07:36  INFO [main] WebEventListener:13 - Before navigating to: 'https://www.lampenwelt.de/'
+2020-11-30 11:07:39  INFO [main] WebEventListener:17 - Navigated to:'https://www.lampenwelt.de/'
+2020-11-30 11:07:39  INFO [main] WebEventListener:80 - Browser Launched
+2020-11-30 11:07:39  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:39  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:39  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:40  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:40  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:40  INFO [main] ShoppingCartPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:40  INFO [main] ShoppingCartPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:45  INFO [main] ShoppingCartPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:45  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:45  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:45  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:45  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:45  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:07:45  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:45  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:52 - Item to be selected is item# 0
+2020-11-30 11:07:46  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:46  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:49  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:49  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:50  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:50  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:50  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:50  INFO [main] ProductPage:61 - Selected ProductName is Moderne LED-Außenwandleuchte Stripes
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:50  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:50  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:50  INFO [main] ProductPage:76 - Price of the product is 66.9
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:50  INFO [main] ProductPage:92 - Total cost of the product is 66.9
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:50  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:50  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:50  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:50  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:50  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:51  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:51  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:51  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:51  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:55  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:55  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:55  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:07:55  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:52 - Item to be selected is item# 0
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:07:55  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:07:58  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:07:58  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:58  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:58  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:58  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:58  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:07:58  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:07:58  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:07:58  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:58  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:07:58  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:58  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:58  INFO [main] ProductPage:61 - Selected ProductName is Eve Light Switch Smart Home Wandschalter
+2020-11-30 11:07:58  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:58  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:07:58  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:07:58  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:07:58  INFO [main] ProductPage:76 - Price of the product is 89.9
+2020-11-30 11:07:58  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:59  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:59  INFO [main] ProductPage:92 - Total cost of the product is 156.8
+2020-11-30 11:07:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:07:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:07:59  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:07:59  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:07:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:59  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:59  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:07:59  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: search
+2020-11-30 11:07:59  INFO [main] ProductPage:62 - Found Element By : By.id: search
+2020-11-30 11:07:59  INFO [main] ProductPage:102 - Before changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:08:03  INFO [main] ProductPage:106 - After changing value of : [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> id: search]
+2020-11-30 11:08:03  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:08:03  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:08:03  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:08:03  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:08:03  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.cssSelector: div.category-products
+2020-11-30 11:08:03  INFO [main] SearchResultPage:62 - Found Element By : By.cssSelector: div.category-products
+2020-11-30 11:08:03  INFO [main] SearchResultPage:35 - Search Result is displayed
+2020-11-30 11:08:03  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:03  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:03  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:03  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:03  INFO [main] SearchResultPage:52 - Item to be selected is item# 2
+2020-11-30 11:08:03  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:03  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:04  INFO [main] SearchResultPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:04  INFO [main] SearchResultPage:62 - Found Element By : By.xpath: //div[@class='product-image']/a
+2020-11-30 11:08:04  INFO [main] SearchResultPage:67 - Executing beforeScript method
+2020-11-30 11:08:06  INFO [main] SearchResultPage:72 - Executing afterScript method
+2020-11-30 11:08:06  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:08:06  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:08:06  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: product_addtocart_form
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: product_addtocart_form
+2020-11-30 11:08:07  INFO [main] ProductPage:48 - Product information Page is displayed
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.cssSelector: div.product-name
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.cssSelector: div.product-name
+2020-11-30 11:08:07  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:08:07  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:08:07  INFO [main] ProductPage:61 - Selected ProductName is Eve Aqua Smart Home Bewässerungssteuerung
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//span[contains(@id,'product-price')]/span)[2]
+2020-11-30 11:08:07  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:08:07  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:08:07  INFO [main] ProductPage:76 - Price of the product is 89.9
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:08:07  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:08:07  INFO [main] ProductPage:92 - Total cost of the product is 246.7
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:67 - Executing beforeScript method
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.id: btnAddToCart
+2020-11-30 11:08:07  INFO [main] ProductPage:72 - Executing afterScript method
+2020-11-30 11:08:07  INFO [main] ProductPage:104 - Add to Cart Button is clicked 
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:07  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:07  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:08  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:08  INFO [main] ProductPage:126 - Before get text
+2020-11-30 11:08:08  INFO [main] ProductPage:114 - Get text method is called
+2020-11-30 11:08:08  INFO [main] ProductPage:58 - Trying to Find Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:08  INFO [main] ProductPage:62 - Found Element By : By.xpath: (//div[contains(@class,"cart-dropdown")])[1]
+2020-11-30 11:08:08  INFO [main] ProductPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:08:12  INFO [main] ProductPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> xpath: (//div[contains(@class,"cart-dropdown")])[1]]
+2020-11-30 11:08:12  INFO [main] ProductPage:118 - Clicked my cart icon
+2020-11-30 11:08:12  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.className: page-title
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:62 - Found Element By : By.className: page-title
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:65 - Cart Page is displayed
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:08:13  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:14  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //a[@title='Artikel entfernen']
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //a[@title='Artikel entfernen']
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:15  INFO [main] ShoppingCartPage:29 - Trying to Click On: [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> xpath: //a[@title='Artikel entfernen']]
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:33 - Clicked On: [[ChromeDriver: chrome on WINDOWS (224daa2cf643c7495abf725e9c60268c)] -> xpath: //a[@title='Artikel entfernen']]
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:67 - Executing beforeScript method
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:72 - Executing afterScript method
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //div[@class='product-row__total']/span/div[@class='price-box']
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-subtotal
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:18  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[@class='total-subtotal']/td[2]/span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: span.value
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: span.value
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.xpath: //tr[contains(@class,'total-bulky-goods-fee-net')]//span
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:58 - Trying to Find Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:62 - Found Element By : By.cssSelector: tr.total-grand_total
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:126 - Before get text
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:114 - Get text method is called
+2020-11-30 11:08:19  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:08:20  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:08:20  INFO [main] ShoppingCartPage:122 - Before get Screenshot
+2020-11-30 11:08:20  INFO [main] ShoppingCartPage:110 - Screenshot is captured
+2020-11-30 11:08:21  INFO [main] ShoppingCartPage:118 - Browser Terminated
+2020-11-30 11:08:21  INFO [main] ShoppingCartPage:119 - -----------------------------------------------
