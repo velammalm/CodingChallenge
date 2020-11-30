@@ -20,11 +20,11 @@ File -->Import-->Maven-->Existing Maven Project
 # Framework Description
 i. com.lampenwelt.pages - The object repositories and the methods for each pages are implemented  <br />
 ii. com.lampenwelt.testcases - The testscripts for each of the testcases are created and addressed using the TestNg attribute @Test  <br />
-         &nbsp;&nbsp;&nbsp; 1. TC001_SearchAndAddProducts - Code has been implemented for the scenario of searching the products and adding it to the cart page
-         &nbsp;&nbsp;&nbsp; 1. TC002_AddProductFromCartPage - Code has been implemented for the scenario of adding new product to the cart page and price validation
-         &nbsp;&nbsp;&nbsp; 1. TC003_UpdateShippingCountry - Code has been implemented for updating the Shipping country and validating the shipping cost
-         &nbsp;&nbsp;&nbsp; 1. TC004_UpdateProductQuantity - Code has been implemented for updating the product quantity and validating the Endprice after updation of quantity
-         &nbsp;&nbsp;&nbsp; 1. TC001_DeleteProductFromCartPage - Code has been implemented for deleting product from the cart page and price validation after deletion
+         &nbsp;&nbsp;&nbsp; 1. TC001_SearchAndAddProducts - Code has been implemented for the scenario of searching the products and adding it to the cart page <br />
+         &nbsp;&nbsp;&nbsp; 2. TC002_AddProductFromCartPage - Code has been implemented for the scenario of adding new product to the cart page and price validation <br />
+         &nbsp;&nbsp;&nbsp; 3. TC003_UpdateShippingCountry - Code has been implemented for updating the Shipping country and validating the shipping <br />
+         &nbsp;&nbsp;&nbsp; 4. TC004_UpdateProductQuantity - Code has been implemented for updating the product quantity and validating the Endprice after updation of quantity<br />
+         &nbsp;&nbsp;&nbsp; 5. TC001_DeleteProductFromCartPage - Code has been implemented for deleting product from the cart page and price validation after deletion<br />
          
 iii. com.lampenwelt.utils - It consists of the following  <br />
          &nbsp;&nbsp;&nbsp; 1. ExcelReader.java -Code for fetching data from excel has been implemented in this file  <br />
