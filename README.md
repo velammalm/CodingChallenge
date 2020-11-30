@@ -13,17 +13,17 @@ File -->Import-->Maven-->Existing Maven Project
 
 # Steps to execute the test script:
 1. Find the testng.xml file and the following path in the project folder <br />
-    #src/main/resources -->testng.xml <br />
+    src/main/resources -->testng.xml <br />
 2.Rightclick on testng.xml and Run as-->TestNG Suite <br />
-3. The Reports can be obtained from 'Reports' Folder
+3.The Reports can be obtained from 'Reports' Folder
 
 # Framework Description
 i. com.lampenwelt.pages - The object repositories and the methods for each pages are implemented  <br />
 ii. com.lampenwelt.testcases - The testscripts for each of the testcases are created and addressed using the testng attribute @Test  <br />
 iii. com.lampenwelt.utils - It consists of the following  <br />
-     1. ExcelReader.java -Code for fetching data from excel has been implemented in this file  <br />
-     2. Reporter.java - Extent Report software has been used and the code for html report generation with date and time has been implemented  <br />
-     3. WebEventlistener.java -The webdriver actions are logged and the output is casted in 'Logger' Files  <br />
+     #1. ExcelReader.java -Code for fetching data from excel has been implemented in this file  <br />
+     #2. Reporter.java - Extent Report software has been used and the code for html report generation with date and time has been implemented  <br />
+     #3. WebEventlistener.java -The webdriver actions are logged and the output is casted in 'Logger' Files  <br />
 iv. com.lampenwelt.wrappers - It consists of the generic methods for executing driver actions using selenium  <br />
 
 The other utilities implemented are as follows:  <br />
